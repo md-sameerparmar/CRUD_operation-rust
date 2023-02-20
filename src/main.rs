@@ -58,6 +58,10 @@ fn update_user(mut username:String){
     println!("\n- Username changed to {}", username);
 }
 
+fn delete_user(username: String){
+    println!("hello from Delete {}", username);
+}
+
 fn main() {
 
     // Let mut users:Vec<Uname> = Vec::new();
